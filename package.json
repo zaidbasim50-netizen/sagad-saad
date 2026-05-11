@@ -1,0 +1,21 @@
+{
+  "name": "english-platform",
+  "version": "1.0.0",
+  "description": "Complete English Learning Platform",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../web-frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd web-frontend && npm start",
+    "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd web-frontend && npm run build",
+    "test": "cd backend && npm test"
+  },
+  "keywords": [
+    "education",
+    "english",
+    "learning",
+    "platform"
+  ],
+  "author": "سجاد سعد مهدي",
+  "license": "MIT"
+}
